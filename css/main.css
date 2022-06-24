@@ -172,12 +172,16 @@ ul{
     display: flex;
     align-items: center;
 }
-.s2-top-li3-learnmore::before{
+/* .s2-top-li3-learnmore::before{
     content: "";
     width: 45px;
     margin-right: 10px;
-    border-bottom: 4px solid #EA625C;
-}
+
+} */
+
+
+/* YOZGAN HOVER transition ISHLAMADI */
+
 
 /* .s2-top-li3-learnmore::before:hover{
     width: 100px;
