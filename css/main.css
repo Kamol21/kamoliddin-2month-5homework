@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), 
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+         url('../fonts/roboto-v30-latin-700.woff') format('woff');
+  }
+
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arial", "Roboto",sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+main{
+    flex-grow: 1;
+}
+.header-top{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+
+    position: relative;
+}
+.head-left-list {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header-left-list-items {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #333333;
+}
+.header-left-list-items:hover{
+    border-bottom: 4px solid transparent;
+}
+input{
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-left: 40px;
+    border: 0px;
+    border-bottom: 2px solid black;
+}
+h1{
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  
+}
+.s1-freedomcalls{
+    padding-top: 170px;
+    padding-bottom: 160px;
+}
+.s1-left-box{
+    width: 450px;
+}
+.for-bg-img{
+    position: absolute;
+    top: -29%;
+    left: 71%;
+}
+.s1-h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+}
+.s1-p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+    padding-left: 20px;
+    border-left: 3px solid #888888;   
+}
+.s1-left-button {
+    margin-top: 20px;
+    padding: 12px 39px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%; 
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #C9514C;
+    border: 0px;
+}
+.s1-left-button:hover{
+    opacity: 0.8;
+}
+.s2 {
+    padding: 70px 0px;
+}
+.s2-top {
+    display: flex;
+    justify-content: space-between;
+}
+.s2-top-li1 {
+    width: 280px;
+}
+.s2-top-h3 {
+    width: 280px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #222222;
+}
+
+
+p{
+    font-size: 15px;
+    line-height: 160%;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.s2-top-p {
+    color: #333333;
+}
+.dots{
+    margin-right: 10px;
+}
+.s2-top-li2 {
+    width: 280px;
+}
+.s2-top-li3 {
+    width: 280px;
+    margin-bottom: 100px;
+}
+.s2-top-li3-learnmore {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #EA625C;
+    display: flex;
+    align-items: center;
+}
+.s2-top-li3-learnmore::before{
+    content: "";
+    width: 45px;
+    margin-right: 10px;
+    border-bottom: 4px solid #EA625C;
+}
+
+/* .s2-top-li3-learnmore::before:hover{
+    width: 100px;
+    border-bottom: 4px solid transparent;
+} */    
+
+.s2-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.s2-left-buttom{
+    width: 450px;
+    margin-top: 50px;
+}
+.s-last{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/runners\ 1.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.s-last-mini-box{
+    width: 477px;
+    margin-left: 500px;
+}
+.s-last-h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.s-last-p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-left: 20px;
+    border-left: 3px solid #FFFFFF;
+}
+.s-last-button {
+    margin-top: 20px;
+    padding: 12px 39px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%; 
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #C9514C;
+    border: 0px;
+}
+.s-last-button:hover{
+    opacity: 0.8;
+}
